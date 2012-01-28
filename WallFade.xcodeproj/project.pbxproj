@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		637DB63E14D3E52E00C0AFFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637DB63D14D3E52E00C0AFFB /* UIKit.framework */; };
+		637DB64014D3E52E00C0AFFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637DB63F14D3E52E00C0AFFB /* Foundation.framework */; };
+		637DB64214D3E52E00C0AFFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 637DB64114D3E52E00C0AFFB /* CoreGraphics.framework */; };
+		637DB64814D3E52E00C0AFFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 637DB64614D3E52E00C0AFFB /* InfoPlist.strings */; };
+		637DB64A14D3E52E00C0AFFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DB64914D3E52E00C0AFFB /* main.m */; };
+		637DB64E14D3E52E00C0AFFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DB64D14D3E52E00C0AFFB /* AppDelegate.m */; };
+		637DB65114D3E52E00C0AFFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DB65014D3E52E00C0AFFB /* ViewController.m */; };
+		637DB65414D3E52E00C0AFFB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637DB65214D3E52E00C0AFFB /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		637DB63914D3E52E00C0AFFB /* WallFade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallFade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		637DB63D14D3E52E00C0AFFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		637DB63F14D3E52E00C0AFFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		637DB64114D3E52E00C0AFFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		637DB64514D3E52E00C0AFFB /* WallFade-Info.plist */ = {isa = PBXFileReference; path = "WallFade-Info.plist"; sourceTree = "<group>"; };
+		637DB64714D3E52E00C0AFFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		637DB64914D3E52E00C0AFFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		637DB64B14D3E52E00C0AFFB /* WallFade-Prefix.pch */ = {isa = PBXFileReference; path = "WallFade-Prefix.pch"; sourceTree = "<group>"; };
+		637DB64C14D3E52E00C0AFFB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		637DB64D14D3E52E00C0AFFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		637DB64F14D3E52E00C0AFFB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		637DB65014D3E52E00C0AFFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		637DB65314D3E52E00C0AFFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637DB63614D3E52E00C0AFFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637DB63E14D3E52E00C0AFFB /* UIKit.framework in Frameworks */,
+				637DB64014D3E52E00C0AFFB /* Foundation.framework in Frameworks */,
+				637DB64214D3E52E00C0AFFB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		637DB62E14D3E52E00C0AFFB = {
+			isa = PBXGroup;
+			children = (
+				637DB64314D3E52E00C0AFFB /* WallFade */,
+				637DB63C14D3E52E00C0AFFB /* Frameworks */,
+				637DB63A14D3E52E00C0AFFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		637DB63A14D3E52E00C0AFFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637DB63914D3E52E00C0AFFB /* WallFade.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637DB63C14D3E52E00C0AFFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				637DB63D14D3E52E00C0AFFB /* UIKit.framework */,
+				637DB63F14D3E52E00C0AFFB /* Foundation.framework */,
+				637DB64114D3E52E00C0AFFB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		637DB64314D3E52E00C0AFFB /* WallFade */ = {
+			isa = PBXGroup;
+			children = (
+				637DB64C14D3E52E00C0AFFB /* AppDelegate.h */,
+				637DB64D14D3E52E00C0AFFB /* AppDelegate.m */,
+				637DB64F14D3E52E00C0AFFB /* ViewController.h */,
+				637DB65014D3E52E00C0AFFB /* ViewController.m */,
+				637DB65214D3E52E00C0AFFB /* ViewController.xib */,
+				637DB64414D3E52E00C0AFFB /* Supporting Files */,
+			);
+			path = WallFade;
+			sourceTree = "<group>";
+		};
+		637DB64414D3E52E00C0AFFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				637DB64514D3E52E00C0AFFB /* WallFade-Info.plist */,
+				637DB64614D3E52E00C0AFFB /* InfoPlist.strings */,
+				637DB64914D3E52E00C0AFFB /* main.m */,
+				637DB64B14D3E52E00C0AFFB /* WallFade-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637DB63814D3E52E00C0AFFB /* WallFade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637DB65714D3E52E00C0AFFB /* Build configuration list for PBXNativeTarget "WallFade" */;
+			buildPhases = (
+				637DB63514D3E52E00C0AFFB /* Sources */,
+				637DB63614D3E52E00C0AFFB /* Frameworks */,
+				637DB63714D3E52E00C0AFFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WallFade;
+			productName = WallFade;
+			productReference = 637DB63914D3E52E00C0AFFB /* WallFade.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637DB63014D3E52E00C0AFFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Graphite iOS Developer";
+			};
+			buildConfigurationList = 637DB63314D3E52E00C0AFFB /* Build configuration list for PBXProject "WallFade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 637DB62E14D3E52E00C0AFFB;
+			productRefGroup = 637DB63A14D3E52E00C0AFFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637DB63814D3E52E00C0AFFB /* WallFade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637DB63714D3E52E00C0AFFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637DB64814D3E52E00C0AFFB /* InfoPlist.strings in Resources */,
+				637DB65414D3E52E00C0AFFB /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637DB63514D3E52E00C0AFFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637DB64A14D3E52E00C0AFFB /* main.m in Sources */,
+				637DB64E14D3E52E00C0AFFB /* AppDelegate.m in Sources */,
+				637DB65114D3E52E00C0AFFB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		637DB64614D3E52E00C0AFFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637DB64714D3E52E00C0AFFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		637DB65214D3E52E00C0AFFB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				637DB65314D3E52E00C0AFFB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		637DB65514D3E52E00C0AFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		637DB65614D3E52E00C0AFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637DB65814D3E52E00C0AFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WallFade/WallFade-Prefix.pch";
+				INFOPLIST_FILE = "WallFade/WallFade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		637DB65914D3E52E00C0AFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WallFade/WallFade-Prefix.pch";
+				INFOPLIST_FILE = "WallFade/WallFade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637DB63314D3E52E00C0AFFB /* Build configuration list for PBXProject "WallFade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637DB65514D3E52E00C0AFFB /* Debug */,
+				637DB65614D3E52E00C0AFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637DB65714D3E52E00C0AFFB /* Build configuration list for PBXNativeTarget "WallFade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637DB65814D3E52E00C0AFFB /* Debug */,
+				637DB65914D3E52E00C0AFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637DB63014D3E52E00C0AFFB /* Project object */;
+}
