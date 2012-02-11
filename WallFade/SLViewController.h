@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SLViewController.h
 //  WallFade
 //
 //  Created by David McAfee on 28/01/12.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
--(IBAction)landscape;
--(IBAction)portrait; 
+@interface SLViewController : UIViewController
+
 @end

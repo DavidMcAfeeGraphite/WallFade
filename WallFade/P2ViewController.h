@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  P2ViewController.h
 //  WallFade
 //
 //  Created by David McAfee on 28/01/12.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
--(IBAction)landscape;
--(IBAction)portrait; 
+@interface P2ViewController : UIViewController
+
+-(IBAction)sepiaportrait; 
 @end

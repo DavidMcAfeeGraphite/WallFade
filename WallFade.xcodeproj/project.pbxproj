@@ -15,6 +15,26 @@
 		637DB64E14D3E52E00C0AFFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DB64D14D3E52E00C0AFFB /* AppDelegate.m */; };
 		637DB65114D3E52E00C0AFFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DB65014D3E52E00C0AFFB /* ViewController.m */; };
 		637DB65414D3E52E00C0AFFB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637DB65214D3E52E00C0AFFB /* ViewController.xib */; };
+		637DB65B14D3E91A00C0AFFB /* iPad_5_256x256x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 637DB65A14D3E91A00C0AFFB /* iPad_5_256x256x32.png */; };
+		637DB65D14D3E96200C0AFFB /* iPad-Landscape-Blank-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 637DB65C14D3E96200C0AFFB /* iPad-Landscape-Blank-icon.png */; };
+		637DB65F14D3EBD500C0AFFB /* landscapeipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 637DB65E14D3EBD500C0AFFB /* landscapeipad.png */; };
+		637DB66114D3ED4B00C0AFFB /* ipadportraitor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 637DB66014D3ED4B00C0AFFB /* ipadportraitor.jpeg */; };
+		637DB66314D3ED5000C0AFFB /* ipadlandscapeor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 637DB66214D3ED5000C0AFFB /* ipadlandscapeor.jpeg */; };
+		637DB66514D3EF5F00C0AFFB /* portraitaquaipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 637DB66414D3EF5F00C0AFFB /* portraitaquaipad.png */; };
+		637DB66714D3EF6600C0AFFB /* landscapeaquaipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 637DB66614D3EF6600C0AFFB /* landscapeaquaipad.png */; };
+		637DB66B14D3FF1400C0AFFB /* L2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DB66914D3FF1400C0AFFB /* L2ViewController.m */; };
+		637DB66C14D3FF1400C0AFFB /* L2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637DB66A14D3FF1400C0AFFB /* L2ViewController.xib */; };
+		637DB66E14D4021C00C0AFFB /* imgres-5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 637DB66D14D4021C00C0AFFB /* imgres-5.jpeg */; };
+		637DB67014D4036B00C0AFFB /* imgres-6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 637DB66F14D4036B00C0AFFB /* imgres-6.jpeg */; };
+		637DB67C14D407AE00C0AFFB /* P2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DB67A14D407AE00C0AFFB /* P2ViewController.m */; };
+		637DB67D14D407AE00C0AFFB /* P2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637DB67B14D407AE00C0AFFB /* P2ViewController.xib */; };
+		637DB68114D40A8500C0AFFB /* SLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DB67F14D40A8500C0AFFB /* SLViewController.m */; };
+		637DB68214D40A8500C0AFFB /* SLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637DB68014D40A8500C0AFFB /* SLViewController.xib */; };
+		637DB68414D40DDE00C0AFFB /* imgres-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 637DB68314D40DDE00C0AFFB /* imgres-7.jpeg */; };
+		637DB68614D40DE300C0AFFB /* imgres-8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 637DB68514D40DE300C0AFFB /* imgres-8.jpeg */; };
+		637DB68814D40EC500C0AFFB /* imgres-9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 637DB68714D40EC500C0AFFB /* imgres-9.jpeg */; };
+		637DB68C14D40F5700C0AFFB /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637DB68A14D40F5700C0AFFB /* SPViewController.m */; };
+		637DB68D14D40F5700C0AFFB /* SPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637DB68B14D40F5700C0AFFB /* SPViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +42,39 @@
 		637DB63D14D3E52E00C0AFFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		637DB63F14D3E52E00C0AFFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		637DB64114D3E52E00C0AFFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		637DB64514D3E52E00C0AFFB /* WallFade-Info.plist */ = {isa = PBXFileReference; path = "WallFade-Info.plist"; sourceTree = "<group>"; };
+		637DB64514D3E52E00C0AFFB /* WallFade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WallFade-Info.plist"; sourceTree = "<group>"; };
 		637DB64714D3E52E00C0AFFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		637DB64914D3E52E00C0AFFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		637DB64B14D3E52E00C0AFFB /* WallFade-Prefix.pch */ = {isa = PBXFileReference; path = "WallFade-Prefix.pch"; sourceTree = "<group>"; };
-		637DB64C14D3E52E00C0AFFB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		637DB64B14D3E52E00C0AFFB /* WallFade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WallFade-Prefix.pch"; sourceTree = "<group>"; };
+		637DB64C14D3E52E00C0AFFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		637DB64D14D3E52E00C0AFFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		637DB64F14D3E52E00C0AFFB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		637DB64F14D3E52E00C0AFFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		637DB65014D3E52E00C0AFFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		637DB65314D3E52E00C0AFFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		637DB65A14D3E91A00C0AFFB /* iPad_5_256x256x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_5_256x256x32.png; sourceTree = "<group>"; };
+		637DB65C14D3E96200C0AFFB /* iPad-Landscape-Blank-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Landscape-Blank-icon.png"; sourceTree = "<group>"; };
+		637DB65E14D3EBD500C0AFFB /* landscapeipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscapeipad.png; sourceTree = "<group>"; };
+		637DB66014D3ED4B00C0AFFB /* ipadportraitor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipadportraitor.jpeg; sourceTree = "<group>"; };
+		637DB66214D3ED5000C0AFFB /* ipadlandscapeor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipadlandscapeor.jpeg; sourceTree = "<group>"; };
+		637DB66414D3EF5F00C0AFFB /* portraitaquaipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portraitaquaipad.png; sourceTree = "<group>"; };
+		637DB66614D3EF6600C0AFFB /* landscapeaquaipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscapeaquaipad.png; sourceTree = "<group>"; };
+		637DB66814D3FF1400C0AFFB /* L2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L2ViewController.h; sourceTree = "<group>"; };
+		637DB66914D3FF1400C0AFFB /* L2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L2ViewController.m; sourceTree = "<group>"; };
+		637DB66A14D3FF1400C0AFFB /* L2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = L2ViewController.xib; sourceTree = "<group>"; };
+		637DB66D14D4021C00C0AFFB /* imgres-5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-5.jpeg"; sourceTree = "<group>"; };
+		637DB66F14D4036B00C0AFFB /* imgres-6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-6.jpeg"; sourceTree = "<group>"; };
+		637DB67914D407AE00C0AFFB /* P2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2ViewController.h; sourceTree = "<group>"; };
+		637DB67A14D407AE00C0AFFB /* P2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P2ViewController.m; sourceTree = "<group>"; };
+		637DB67B14D407AE00C0AFFB /* P2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = P2ViewController.xib; sourceTree = "<group>"; };
+		637DB67E14D40A8500C0AFFB /* SLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLViewController.h; sourceTree = "<group>"; };
+		637DB67F14D40A8500C0AFFB /* SLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLViewController.m; sourceTree = "<group>"; };
+		637DB68014D40A8500C0AFFB /* SLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLViewController.xib; sourceTree = "<group>"; };
+		637DB68314D40DDE00C0AFFB /* imgres-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-7.jpeg"; sourceTree = "<group>"; };
+		637DB68514D40DE300C0AFFB /* imgres-8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-8.jpeg"; sourceTree = "<group>"; };
+		637DB68714D40EC500C0AFFB /* imgres-9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-9.jpeg"; sourceTree = "<group>"; };
+		637DB68914D40F5700C0AFFB /* SPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
+		637DB68A14D40F5700C0AFFB /* SPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
+		637DB68B14D40F5700C0AFFB /* SPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +126,30 @@
 				637DB64F14D3E52E00C0AFFB /* ViewController.h */,
 				637DB65014D3E52E00C0AFFB /* ViewController.m */,
 				637DB65214D3E52E00C0AFFB /* ViewController.xib */,
+				637DB66614D3EF6600C0AFFB /* landscapeaquaipad.png */,
+				637DB66214D3ED5000C0AFFB /* ipadlandscapeor.jpeg */,
+				637DB66014D3ED4B00C0AFFB /* ipadportraitor.jpeg */,
+				637DB65E14D3EBD500C0AFFB /* landscapeipad.png */,
+				637DB65A14D3E91A00C0AFFB /* iPad_5_256x256x32.png */,
+				637DB65C14D3E96200C0AFFB /* iPad-Landscape-Blank-icon.png */,
+				637DB66414D3EF5F00C0AFFB /* portraitaquaipad.png */,
+				637DB66F14D4036B00C0AFFB /* imgres-6.jpeg */,
+				637DB66814D3FF1400C0AFFB /* L2ViewController.h */,
+				637DB66914D3FF1400C0AFFB /* L2ViewController.m */,
+				637DB66A14D3FF1400C0AFFB /* L2ViewController.xib */,
+				637DB67914D407AE00C0AFFB /* P2ViewController.h */,
+				637DB67A14D407AE00C0AFFB /* P2ViewController.m */,
+				637DB67B14D407AE00C0AFFB /* P2ViewController.xib */,
+				637DB67E14D40A8500C0AFFB /* SLViewController.h */,
+				637DB67F14D40A8500C0AFFB /* SLViewController.m */,
+				637DB68014D40A8500C0AFFB /* SLViewController.xib */,
+				637DB68914D40F5700C0AFFB /* SPViewController.h */,
+				637DB68A14D40F5700C0AFFB /* SPViewController.m */,
+				637DB68B14D40F5700C0AFFB /* SPViewController.xib */,
+				637DB66D14D4021C00C0AFFB /* imgres-5.jpeg */,
+				637DB68314D40DDE00C0AFFB /* imgres-7.jpeg */,
+				637DB68514D40DE300C0AFFB /* imgres-8.jpeg */,
+				637DB68714D40EC500C0AFFB /* imgres-9.jpeg */,
 				637DB64414D3E52E00C0AFFB /* Supporting Files */,
 			);
 			path = WallFade;
@@ -151,6 +219,22 @@
 			files = (
 				637DB64814D3E52E00C0AFFB /* InfoPlist.strings in Resources */,
 				637DB65414D3E52E00C0AFFB /* ViewController.xib in Resources */,
+				637DB65B14D3E91A00C0AFFB /* iPad_5_256x256x32.png in Resources */,
+				637DB65D14D3E96200C0AFFB /* iPad-Landscape-Blank-icon.png in Resources */,
+				637DB65F14D3EBD500C0AFFB /* landscapeipad.png in Resources */,
+				637DB66114D3ED4B00C0AFFB /* ipadportraitor.jpeg in Resources */,
+				637DB66314D3ED5000C0AFFB /* ipadlandscapeor.jpeg in Resources */,
+				637DB66514D3EF5F00C0AFFB /* portraitaquaipad.png in Resources */,
+				637DB66714D3EF6600C0AFFB /* landscapeaquaipad.png in Resources */,
+				637DB66C14D3FF1400C0AFFB /* L2ViewController.xib in Resources */,
+				637DB66E14D4021C00C0AFFB /* imgres-5.jpeg in Resources */,
+				637DB67014D4036B00C0AFFB /* imgres-6.jpeg in Resources */,
+				637DB67D14D407AE00C0AFFB /* P2ViewController.xib in Resources */,
+				637DB68214D40A8500C0AFFB /* SLViewController.xib in Resources */,
+				637DB68414D40DDE00C0AFFB /* imgres-7.jpeg in Resources */,
+				637DB68614D40DE300C0AFFB /* imgres-8.jpeg in Resources */,
+				637DB68814D40EC500C0AFFB /* imgres-9.jpeg in Resources */,
+				637DB68D14D40F5700C0AFFB /* SPViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +248,10 @@
 				637DB64A14D3E52E00C0AFFB /* main.m in Sources */,
 				637DB64E14D3E52E00C0AFFB /* AppDelegate.m in Sources */,
 				637DB65114D3E52E00C0AFFB /* ViewController.m in Sources */,
+				637DB66B14D3FF1400C0AFFB /* L2ViewController.m in Sources */,
+				637DB67C14D407AE00C0AFFB /* P2ViewController.m in Sources */,
+				637DB68114D40A8500C0AFFB /* SLViewController.m in Sources */,
+				637DB68C14D40F5700C0AFFB /* SPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
